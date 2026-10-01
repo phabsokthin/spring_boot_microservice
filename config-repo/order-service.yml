@@ -7,10 +7,10 @@ spring:
 
   # config db with postgress optional
   datasource:
-    url: jdbc:postgresql://localhost:5432/dborder
-    # url: jdbc:postgresql://postgres-order:5432/dborder
+    # url: jdbc:postgresql://localhost:5432/dborder
+    url: jdbc:postgresql://postgres-order:5432/dborder
     username: postgres
-    password: ${DB_PRODUCT_PASSWORD}
+    password: ${DB_ORDER_PASSWORD}
     driver-class-name: org.postgresql.Driver
 
 # config jpa
