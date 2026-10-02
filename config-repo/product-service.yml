@@ -19,7 +19,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/dbproduct
     # url: jdbc:postgresql://postgres-product:5432/dbproduct
     username: postgres
-    password: ${DB_PRODUCT_PASSWORD}
+    password: admin123
     driver-class-name: org.postgresql.Driver
 
   # config jpa
